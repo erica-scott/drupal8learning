@@ -1,0 +1,7 @@
+testmodule.api_form:
+  path: '/admin/config/appno_api/api-setup'
+  defaults:
+    _title: 'API Form'
+    _form: '\Drupal\appno_api\Form\ApiForm'
+  requirements:
+    _permission: 'access content'
