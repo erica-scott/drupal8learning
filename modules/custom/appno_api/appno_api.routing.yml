@@ -1,4 +1,11 @@
-testmodule.api_form:
+system.admin_config_appnovation:
+  path: '/admin/config/appno_api'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Appnovation'
+  requirements:
+    _permission: 'access administration pages'
+appno_api.api_form:
   path: '/admin/config/appno_api/api-setup'
   defaults:
     _title: 'API Form'
