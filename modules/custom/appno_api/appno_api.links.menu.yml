@@ -4,7 +4,7 @@ system.admin_config_appnovation:
   title: Appnovation
   weight: -10
 appno_api.api_form:
-  title: 'API Form'
+  title: 'API Configuration'
   description: 'Configure the API key.'
   parent: system.admin_config_appnovation
   route_name: appno_api.api_form

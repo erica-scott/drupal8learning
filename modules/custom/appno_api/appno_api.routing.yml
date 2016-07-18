@@ -8,7 +8,7 @@ system.admin_config_appnovation:
 appno_api.api_form:
   path: '/admin/config/appno_api/api-setup'
   defaults:
-    _title: 'API Form'
+    _title: 'API Configuration'
     _form: '\Drupal\appno_api\Form\ApiForm'
   requirements:
     _permission: 'access content'
